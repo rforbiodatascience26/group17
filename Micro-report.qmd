@@ -68,23 +68,6 @@ pca_fit %>%
 ```
 
 ```{r}
-# # A tibble: 81 x 3
-#    column               PC    value
-#    <chr>             <dbl>    <dbl>
-#  1 clump_thickness       1 -0.302  
-#  2 clump_thickness       2 -0.141  
-#  3 clump_thickness       3  0.866  
-#  4 clump_thickness       4 -0.108  
-#  5 clump_thickness       5  0.0803 
-#  6 clump_thickness       6 -0.243  
-#  7 clump_thickness       7 -0.00852
-#  8 clump_thickness       8  0.248  
-#  9 clump_thickness       9 -0.00275
-# 10 uniform_cell_size     1 -0.381  
-# # … with 71 more rows
-```
-
-```{r}
 # define arrow style for plotting
 arrow_style <- arrow(
   angle = 20, ends = "first", type = "closed", length = grid::unit(8, "pt")
