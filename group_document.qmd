@@ -6,7 +6,7 @@ editor: visual
 
 # s215120
 
-Test1
+Test
 
 ```{r}
 print("hello world")
