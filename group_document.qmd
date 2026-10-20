@@ -8,6 +8,10 @@ editor: visual
 
 # s253362
 
+```{r}
+print("I love R for BioData Science")
+```
+
 # s243342
 
 # s262015
