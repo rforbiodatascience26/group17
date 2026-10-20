@@ -6,6 +6,16 @@ editor: visual
 
 # s215120
 
+Test
+
+```{r}
+print("hello world")
+```
+
+```{r}
+print("test over")
+```
+
 # s253362
 
 # s243342
