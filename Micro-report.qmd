@@ -1,0 +1,8 @@
+---
+title: "Micro-report"
+author: "Andrea López Martinez (s243342), Caroline Aroha Schmidt Morthorst Rasmussen (s215120), Marc Magem Planas (s253362) & Tijn Friederich (s262015)"
+format:
+  html:
+    embed-resources: true
+editor: visual
+---
