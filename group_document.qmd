@@ -16,6 +16,18 @@ print("hello world")
 print("test over")
 ```
 
+## New feature
+
+Test 2
+
+```{r}
+print("hello again")
+```
+
+```{r}
+print("test 2 over")
+```
+
 # s253362
 
 ```{r}
