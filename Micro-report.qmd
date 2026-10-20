@@ -13,7 +13,7 @@ We’ll be analyzing the `biopsy` dataset, which comes originally from the MASS 
 
 ### Aim
 
-Performing PCA, by looking at the data in PC coordinates, looking at the rotation matrix, and finally look at the variance explained by each PC.
+Performing PCA, by looking at the data in PC coordinates, looking at the rotation matrix, and finally look at the variance explained by each PC. Most importantly, practice working collaboratively.
 
 ### Load Libraries
 
