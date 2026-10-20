@@ -61,4 +61,8 @@ ggplot(data = cancer_data,
 print("hello")
 ```
 
+```{r}
+print("bye")
+```
+
 # s262015
