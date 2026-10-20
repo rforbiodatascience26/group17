@@ -9,11 +9,25 @@ editor: visual
 
 ### Background
 
+We’ll be analyzing the `biopsy` dataset, which comes originally from the MASS package. It is a breast cancer dataset from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg. He assessed biopsies of breast tumors for 699 patients; each of nine attributes was scored on a scale of 1 to 10. The true outcome (benign/malignant) is also known
+
 ### Aim
+
+Performing PCA, by looking at the data in PC coordinates, looking at the rotation matrix, and finally look at the variance explained by each PC.
 
 ### Load Libraries
 
+```{r}
+library(tidyverse)
+library(broom)  # devtools::install_github("tidymodels/broom")
+library(cowplot)
+```
+
 ### Load Data
+
+```{r}
+biopsy <- read_csv("https://wilkelab.org/classes/SDS348/data_sets/biopsy.csv")
+```
 
 ### Data Description
 
