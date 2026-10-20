@@ -9,7 +9,9 @@ editor: visual
 
 ### Background
 
-We’ll be analyzing the `biopsy` dataset, which comes originally from the MASS package. It is a breast cancer dataset from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg. He assessed biopsies of breast tumors for 699 patients; each of nine attributes was scored on a scale of 1 to 10. The true outcome (benign/malignant) is also known
+Doing a PCA in R is easy: Just run the function `prcomp()` on your matrix of scaled numeric predictor variables. There’s just one problem, however. The result is an object of class `prcomp` that doesn’t fit nicely into the tidyverse framework, e.g. for visualization. While it’s reasonably easy to extract the relevant info with [some base-R manipulations,](https://wilkelab.org/classes/SDS348/2020_spring/worksheets/class9_solutions.html) I’ve never been happy with this approach. But now, I’ve realized that all the necessary functions to do this tidyverse-style are available in the broom package.
+
+For our PCA example, we’ll need the packages tidyverse and broom. Note that as of this writing, we need the current development version of broom [because of a bug](https://github.com/tidymodels/broom/issues/923) in `tidy.prcomp()`. We’ll also use the cowplot package for plot themes.
 
 ### Aim
 
@@ -30,5 +32,7 @@ biopsy <- read_csv("https://wilkelab.org/classes/SDS348/data_sets/biopsy.csv")
 ```
 
 ### Data Description
+
+We’ll be analyzing the `biopsy` dataset, which comes originally from the MASS package. It is a breast cancer dataset from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg. He assessed biopsies of breast tumors for 699 patients; each of nine attributes was scored on a scale of 1 to 10. The true outcome (benign/malignant) is also known.
 
 ### Analysis
