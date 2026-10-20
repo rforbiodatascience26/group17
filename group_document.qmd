@@ -16,18 +16,6 @@ print("hello world")
 print("test over")
 ```
 
-## New feature
-
-Test 2
-
-```{r}
-print("test initiating")
-```
-
-```{r}
-print("hello again")
-```
-
 # s253362
 
 ```{r}
